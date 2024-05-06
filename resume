@@ -7,56 +7,115 @@
     <title>Venkat Sai Pallapu | Resume</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: 'Arial', 'Helvetica', sans-serif;
             margin: 0;
-            padding: 0;
-            background: #f4f4f4;
+            padding: 20px;
+            background: #f0f0f0;
             color: #333;
+            line-height: 1.6;
         }
 
         .container {
+            background: white;
             width: 80%;
-            margin: auto;
-            overflow: hidden;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        header,
-        footer {
-            background: #333;
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+        }
+
+        header {
+            background-color: #000;
             color: #fff;
+            font-size: 24px;
+            text-align: center;
             padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            margin: 0;
+            font-weight: normal;
+            font-size: 16px;
+        }
+
+
+        footer {
+            background: #292f33;
+            color: white;
+            padding: 10px 20px;
             text-align: center;
         }
 
-        .main-content {
-            background: white;
-            padding: 20px;
-            margin-top: 20px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        h1,
         h2 {
             color: #333;
         }
 
-        p {
-            line-height: 1.6;
+        h1 {
+            font-size: 24px;
         }
 
-        ul {
-            padding-left: 20px;
+        h2 {
+            font-size: 20px;
+            border-bottom: 2px solid blue;
+            padding-bottom: 3px;
+        }
+
+        p,
+        li {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .sideview {
+            list-style-position: inside;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 20px;
+        }
+
+        .contact-info {
+            background-color: #000;
+            color: #fff;
+            font-size: 16px;
+            text-align: right;
+            padding: 10px 5%;
+            margin-bottom: 20px;
+        }
+
+        .headertest {
+            background-color: #fff;
+            color: #000;
+            font-size: 32px;
+            padding: 00px 5%;
+            font-weight: bold;
+            text-align: right;
+            margin-bottom: 2px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Venkat Sai Pallapu</h1>
+        Venkat Sai Pallapu | Resume
     </header>
 
     <div class="container">
-        <div class="main-content">
+        <section class="headertest">
+            VENKAT SAI <span style="color: blue;">PALLAPU</span>
+        </section>
+        <section class="contact-info">
+            Jersey City, NJ 07304 | (201) 268-9163 | venkatsaipallapu@gmail.com
+        </section>
+        <section>
             <h2>Professional Summary</h2>
             <p>Experienced Frontend Developer with 4 years of comprehensive expertise in designing, implementing, and
                 optimizing user-centric web applications. Proficient in Vue.js, PHP Laravel framework, and Java, with a
@@ -65,12 +124,11 @@
                 crafting dynamic user interfaces, integrating backend services, and ensuring optimal performance and
                 usability. Committed to continuous learning and staying abreast of emerging trends in frontend
                 development to drive excellence and achieve business objectives.</p>
-            <h2>Contact Information</h2>
-            <p>Location: Jersey City, NJ 07304</p>
-            <p>Phone: (201) 268-9163</p>
-            <p>Email: <a href="mailto:venkatsaipallapu@gmail.com">venkatsaipallapu@gmail.com</a></p>
+        </section>
+
+        <section>
             <h2>Skills</h2>
-            <ul>
+            <ul class="sideview">
                 <li>Front-End Development</li>
                 <li>Testing and Deployment</li>
                 <li>Customer-Centric Approach</li>
@@ -84,30 +142,63 @@
                 <li>Troubleshooting and Resolution</li>
                 <li>Software Development Life Cycle (SDLC)</li>
             </ul>
+        </section>
+        <section>
             <h2>Work History</h2>
-            <p>Software Developer at Crowdnetic Technologies Private Limited – Hyderabad (05/2020 to 08/2023)</p>
-            <p>Spearheaded the frontend development of a high-traffic web application using Vue.js and Laravel framework
-                PHP. Implemented custom features and functionalities to meet project requirements and enhance user
-                satisfaction. Worked closely with stakeholders to gather requirements, define project scope, and deliver
-                solutions within tight deadlines. Resolved technical challenges and optimized frontend code for improved
-                performance and scalability. Provided technical guidance and mentorship to junior developers, fostering
-                a culture of continuous learning and growth.</p>
-            <p>Software Developer at Kloud Portal – Hyderabad (06/2019 to 05/2020)</p>
-            <p>Designed and developed frontend components using Vue.js, enhancing user engagement and experience.
-                Integrated frontend interfaces with backend APIs built on the Laravel framework PHP, ensuring seamless
-                data flow and functionality. Conducted thorough testing and debugging of frontend code to ensure quality
-                and performance standards were met.</p>
+            <div class="job">
+                <h3 class="job-title"><b>Software Developer, <br>Crowdnetic Technologies Private Limited – Hyderabad</b>
+                </h3>
+                <p><strong>05/2020 - 08/2023 | </strong><a href="https://www.finmkt.io/" target="_blank"
+                        class="job-link">The Future of
+                        Embedded Financial Technology</a></p>
+                <ul>
+                    <li>Spearheaded the frontend development of a high-traffic web application using Vue.js and Laravel
+                        framework PHP.</li>
+                    <li>Implemented custom features and functionalities to meet project requirements and enhance user
+                        satisfaction.</li>
+                    <li>Worked closely with stakeholders to gather requirements, define project scope, and deliver
+                        solutions within tight deadlines.</li>
+                    <li>Resolved technical challenges and optimized frontend code for improved performance and
+                        scalability.</li>
+                    <li>Provided technical guidance and mentorship to junior developers, fostering a culture of
+                        continuous learning and growth.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3 class="job-title"><b>Software Developer,<br> Kloud Portal – Hyderabad</b></h3>
+                <p><strong>06/2019 - 05/2020 | </strong><a href="https://www.opalcrm.com/" target="_blank"
+                        class="job-link">Opal CRM</a>
+                </p>
+                <ul>
+                    <li>Designed and developed frontend components using Vue.js, enhancing user engagement and
+                        experience.</li>
+                    <li>Integrated frontend interfaces with backend APIs built on the Laravel framework PHP, ensuring
+                        seamless data flow and functionality.</li>
+                    <li>Collaborated with designers and backend developers to implement responsive and visually
+                        appealing web applications.</li>
+                    <li>Conducted thorough testing and debugging of frontend code to ensure quality and performance
+                        standards were met.</li>
+                    <li>Actively participated in code reviews and provided constructive feedback to improve overall code
+                        quality and maintainability.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
             <h2>Education</h2>
-            <p>Master of Science in Computer Science, Expected in 12/2024, Pace University, New York, NY</p>
-            <p>Bachelor of Science in Computer Science, 05/2019, Institute of Aeronautical Engineering, Hyderabad</p>
+            <p>Master of Science: Computer Science, Expected in 12/2024, Pace University, New York, NY</p>
+            <p>Bachelor of Science: Computer Science, 05/2019, Institute of Aeronautical Engineering, Hyderabad</p>
+        </section>
+
+        <section>
             <h2>Certifications</h2>
             <p>Vue.js, Kontra - February 2023</p>
             <p>PHP Laravel framework, Kontra - February 2023</p>
-        </div>
+        </section>
     </div>
 
     <footer>
-        <p>Copyright &copy; 2021 All Rights Reserved</p>
+        <p>Copyright &copy; 2024 All Rights Reserved</p>
     </footer>
 </body>
 
