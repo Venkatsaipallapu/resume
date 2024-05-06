@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkat Sai Pallapu | Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header,
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .main-content {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Venkat Sai Pallapu</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <h2>Professional Summary</h2>
+            <p>Experienced Frontend Developer with 4 years of comprehensive expertise in designing, implementing, and
+                optimizing user-centric web applications. Proficient in Vue.js, PHP Laravel framework, and Java, with a
+                focus on delivering robust and innovative solutions. Demonstrated ability to collaborate effectively
+                with cross-functional teams and adapt to evolving technologies and project requirements. Skilled in
+                crafting dynamic user interfaces, integrating backend services, and ensuring optimal performance and
+                usability. Committed to continuous learning and staying abreast of emerging trends in frontend
+                development to drive excellence and achieve business objectives.</p>
+            <h2>Contact Information</h2>
+            <p>Location: Jersey City, NJ 07304</p>
+            <p>Phone: (201) 268-9163</p>
+            <p>Email: <a href="mailto:venkatsaipallapu@gmail.com">venkatsaipallapu@gmail.com</a></p>
+            <h2>Skills</h2>
+            <ul>
+                <li>Front-End Development</li>
+                <li>Testing and Deployment</li>
+                <li>Customer-Centric Approach</li>
+                <li>Team Collaboration</li>
+                <li>Software Design</li>
+                <li>Software Applications</li>
+                <li>Code Development</li>
+                <li>Design and Development</li>
+                <li>Configuration Management</li>
+                <li>JIRA</li>
+                <li>Troubleshooting and Resolution</li>
+                <li>Software Development Life Cycle (SDLC)</li>
+            </ul>
+            <h2>Work History</h2>
+            <p>Software Developer at Crowdnetic Technologies Private Limited – Hyderabad (05/2020 to 08/2023)</p>
+            <p>Spearheaded the frontend development of a high-traffic web application using Vue.js and Laravel framework
+                PHP. Implemented custom features and functionalities to meet project requirements and enhance user
+                satisfaction. Worked closely with stakeholders to gather requirements, define project scope, and deliver
+                solutions within tight deadlines. Resolved technical challenges and optimized frontend code for improved
+                performance and scalability. Provided technical guidance and mentorship to junior developers, fostering
+                a culture of continuous learning and growth.</p>
+            <p>Software Developer at Kloud Portal – Hyderabad (06/2019 to 05/2020)</p>
+            <p>Designed and developed frontend components using Vue.js, enhancing user engagement and experience.
+                Integrated frontend interfaces with backend APIs built on the Laravel framework PHP, ensuring seamless
+                data flow and functionality. Conducted thorough testing and debugging of frontend code to ensure quality
+                and performance standards were met.</p>
+            <h2>Education</h2>
+            <p>Master of Science in Computer Science, Expected in 12/2024, Pace University, New York, NY</p>
+            <p>Bachelor of Science in Computer Science, 05/2019, Institute of Aeronautical Engineering, Hyderabad</p>
+            <h2>Certifications</h2>
+            <p>Vue.js, Kontra - February 2023</p>
+            <p>PHP Laravel framework, Kontra - February 2023</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2021 All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
